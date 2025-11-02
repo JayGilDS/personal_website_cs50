@@ -1,0 +1,30 @@
+# Website Specification
+
+## HTML Tags Used (10+):
+1. `<header>` - Defines the header section with "This is CS50!" banner
+2. `<h1>`, `<h2>` - Heading tags for titles and section headers
+3. `<p>` - Paragraph tags for text content
+4. `<img>` - Displays images (headshot, blog, gym, music pictures)
+5. `<a>` - Creates hyperlinks to other pages
+6. `<div>` - Container elements for grouping content
+7. `<button>` - Scroll-to-top interactive button
+8. `<footer>` - Footer section with copyright information
+9. `<ul>`, `<li>` - Unordered lists for recipe instructions and blog content
+10. `<iframe>` - Embeds YouTube videos in the music page
+11. `<article>` - Contains blog post and recipe content
+
+## CSS Properties Used (5+):
+1. `background` - Linear gradient background for the entire website
+2. `border-radius` - Rounded corners on cards, buttons, and images
+3. `box-shadow` - Drop shadows for depth on cards and elements
+4. `transition` - Smooth animations on hover effects
+5. `display: flex` - Flexbox layout for responsive card gallery
+6. `transform` - Scale and translate effects for card hover animations
+7. `padding` - Internal spacing for elements
+8. `margin` - External spacing between elements
+
+## JavaScript Usage:
+JavaScript is used to create a dynamic greeting that changes based on the time of day (morning/afternoon/evening), implement a scroll-to-top button that appears when scrolling down the page, and add interactive hover effects to the Bootstrap cards with smooth transform animations.
+
+## Bootstrap Usage:
+Bootstrap is used to create responsive card components for the Blog, Gym Recipes, and Music sections, featuring card images, titles, descriptions, and styled buttons with built-in responsive design that adapts to different screen sizes.
